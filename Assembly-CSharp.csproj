@@ -192,14 +192,14 @@
     <Compile Include="Assets\External Assets\VN Engine\Scripts\EnableIfKeyPressed.cs" />
     <Compile Include="Assets\External Assets\VN Engine\Scripts\Nodes\AmbienceNode.cs" />
     <Compile Include="Assets\External Assets\VN Engine\Scripts\FeatureToSave.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\External Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\External Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\StdLib.hlsl" />
@@ -229,7 +229,7 @@
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\AutoExposure.compute" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
-     <None Include="Assets\External Assets\Plugins\Demigiant\DOTween\DOTween.XML" />
+     <None Include="Assets\External Assets\DOTween\DOTween.XML" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
      <None Include="Assets\Characters\girl_5\json\girl.atlas.txt" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
@@ -255,7 +255,7 @@
      <None Include="Assets\External Assets\GUI Kit Casual Game\Extensions\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\External Assets\GUI Kit Casual Game\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\xRLib.hlsl" />
-     <None Include="Assets\External Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
+     <None Include="Assets\External Assets\DOTween\DOTween.dll" />
      <None Include="Assets\External Assets\GUI Kit Casual Game\Extensions\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\External Assets\GUI Kit Casual Game\Extensions\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Debug\Overlays.shader" />
@@ -276,7 +276,7 @@
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
      <None Include="Assets\External Assets\VN Engine\Text\ImportingDialogueExample.txt" />
      <None Include="Assets\External Assets\GUI Kit Casual Game\Extensions\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\External Assets\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\External Assets\DOTween\readme.txt" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\GaussianDownsample.compute" />
      <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
@@ -531,7 +531,7 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>Assets\External Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>Assets\External Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
