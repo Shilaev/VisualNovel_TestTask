@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BE477818-B7F9-98B0-4EAF-E4673403D9A7}</ProjectGuid>
+    <ProjectGuid>{F44FB807-CDB5-9D2E-A521-D64BCEBFB8BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>spine-unity-examples</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.7</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2021.1.6f1</UnityVersion>
   </PropertyGroup>
@@ -56,101 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineboyBodyTilt.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SetRigidbodySolverIterations.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mix and Match Character Customize\EquipsVisualsComponentExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\SpineBeginnerTwo.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonGraphicMirror.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Legacy\SpriteAttacher.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\SpineboyBeginnerInput.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Rotator.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\DataAssetsFromExportsExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonColorInitialize.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpawnFromSkeletonDataExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineboyPole.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mix and Match Character Customize\EquipButtonExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\DraggableTransform.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\MaterialPropertyBlockExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\AttackSpineboy.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\CombinedSkin.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\Raptor.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Goblins.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Sample VertexEffects\TwoByTwoTransformEffectExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineGauge.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\SkeletonRagdoll2D.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\HeroEffectsHandlerExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mecanim as Logic\MecanimToAnimationHandleExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Ghost\SkeletonGhostRenderer.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\RaggedySpineboy.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineboyPoleGraphic.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonAnimationFixedTimestep.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\ConstrainedCamera.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\BoneLocalOverride.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Ghost\SkeletonGhost.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\BasicPlatformerController.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Other Examples\Animation Tester\SpineAnimationTesterTool.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineboyFreeze.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mix and Match Character Customize\EquipSystemExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Sample VertexEffects\JitterEffectExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpawnSkeletonGraphicExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonAnimationMulti\SkeletonAnimationMulti.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\SkeletonRagdoll.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\RootMotionDeltaCompensation.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mecanim as Logic\SkeletonAnimationHandleExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mix and Match Character Customize\MixAndMatchSkinsButtonExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonGraphicPlayAnimationAtEvent.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mecanim as Logic\DummyMecanimControllerExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SlotTintBlackFollower.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mix and Match Character Customize\EquipAssetExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\SpineboyTargetController.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\MixAndMatch.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SpineEventUnityHandler.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\HandleEventWithAudioExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Spineboy.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\SpineboyBeginnerView.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\MixAndMatchGraphic.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Legacy\AtlasRegionAttacher.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\SpineBlinkPlayer.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\RenderExistingMesh.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineboyFacialExpression.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\MecanimAnimationMatchModifier\AnimationMatchModifierAsset.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\HurtFlashEffect.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\MaterialReplacementExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Mix and Match Character Customize\MixAndMatchSkinsExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\ReloadSceneOnKeyDown.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\FootSoldierExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\OutlineSkeletonGraphic.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\SpineboyFootplanter.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\TransitionDictionaryExample.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Getting Started Scripts\SpineboyBeginnerModel.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Legacy\CustomSkin.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Dragon\dragon.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Eyes\eyes.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\raptor-pro-and-mask\raptor-pma.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Scripts\MecanimAnimationMatchModifier\AnimationMatchModifierAsset.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Goblins\goblins.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Hero\hero-pro.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\whirlyblendmodes\whirlyblendmodes.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Stretchyman\stretchyman-diffuse-pma.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Spineunitygirl\Doi.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Gauge\Gauge.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Dragon\license.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\mix-and-match\mix-and-match-pma.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\spineboy-pro\spineboy-pro.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\FootSoldier\FS_White.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\spineboy-unity\spineboy.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Hero\license.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\Raptor\raptor.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\FootSoldier\Equipment\Equipment.atlas.txt" />
-     <None Include="Assets\External Assets\Spine Examples\Spine Skeletons\FootSoldier\license.txt" />
-     <None Include="Assets\External Assets\Spine Examples\spine-unity-examples.asmdef" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween.XML" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -382,38 +300,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions">
-      <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="MiscUtil">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Core\Dependencies\MiscUtil\MiscUtil.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\External Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
-      <HintPath>Assets\External Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -766,17 +660,79 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VSSettingsProvider">
+      <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="com.unity.postprocessing.Editor.csproj">
+      <Project>{D1A99CB2-11F0-D402-E777-04DBA7B33A11}</Project>
+      <Name>com.unity.postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.postprocessing.Runtime.csproj">
+      <Project>{B343497E-1551-B676-F0D2-6D433B0AAD53}</Project>
+      <Name>com.unity.postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples.csproj">
+      <Project>{BE477818-B7F9-98B0-4EAF-E4673403D9A7}</Project>
+      <Name>spine-unity-examples</Name>
+    </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
       <Project>{A4AE2DE7-1DED-5455-EB71-1AEA28F78F7D}</Project>
       <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples-editor.csproj">
+      <Project>{9A051959-7DFC-02A2-DB5F-FDECA35906FE}</Project>
+      <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{9358DACA-670A-7137-6D80-8181A0D180F1}</Project>
+      <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
