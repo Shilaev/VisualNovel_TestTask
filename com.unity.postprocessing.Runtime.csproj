@@ -56,65 +56,65 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessDebug.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\ColorUtilities.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\AutoExposure.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\WaveformMonitor.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\MaxAttribute.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ScreenSpaceReflections.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\SubpixelMorphologicalAntialiasing.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\PropertySheetFactory.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\ShaderIDs.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\RuntimeUtilities.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessBundle.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\ParameterOverride.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\MeshUtilities.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Grain.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\MinMaxAttribute.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessDebugLayer.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\DisplayNameAttribute.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\MultiScaleVO.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessManager.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\HaltonSeq.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\Spline.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessVolume.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\LightMeterMonitor.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\TextureLerper.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ScalableAO.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\PropertySheet.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessEffectRenderer.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Fog.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ColorGrading.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessEffectSettings.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Dithering.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessEvent.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessRenderContext.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\TextureFormatUtilities.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\MotionBlur.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Vignette.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\XRSettings.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\PostProcessAttribute.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\HableCurve.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\Monitor.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\TargetPool.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Bloom.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\LensDistortion.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\DepthOfField.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessResources.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\FastApproximateAntialiasing.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\TemporalAntialiasing.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessLayer.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ChromaticAberration.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessProfile.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\AmbientOcclusion.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\LogHistogram.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Grain.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\PropertySheetFactory.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\ParameterOverride.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\PropertySheet.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessRenderContext.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\PostProcessAttribute.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessLayer.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ChromaticAberration.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\ShaderIDs.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\LightMeterMonitor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Fog.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\AutoExposure.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\DisplayNameAttribute.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\XRSettings.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Bloom.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\ColorUtilities.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessBundle.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\Spline.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessEffectSettings.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\TargetPool.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\Monitor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\FastApproximateAntialiasing.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\MultiScaleVO.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Dithering.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\MotionBlur.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ScreenSpaceReflections.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\MeshUtilities.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\MinMaxAttribute.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessVolume.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessResources.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\AmbientOcclusion.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\LogHistogram.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\RuntimeUtilities.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessEvent.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\Vignette.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\DepthOfField.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ScalableAO.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\HableCurve.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessManager.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\TextureLerper.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessDebugLayer.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\TemporalAntialiasing.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessProfile.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessDebug.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Attributes\MaxAttribute.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\PostProcessEffectRenderer.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\ColorGrading.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\TextureFormatUtilities.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\LensDistortion.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Effects\SubpixelMorphologicalAntialiasing.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\Utils\HaltonSeq.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Runtime\com.unity.postprocessing.Runtime.asmdef" />
+     <None Include="Assets\Jun_ConnectKit\PostProcessing\Runtime\com.unity.postprocessing.Runtime.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -374,10 +374,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>Assets\External Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>Assets\External Assets\DOTween\DOTween.dll</HintPath>
+      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

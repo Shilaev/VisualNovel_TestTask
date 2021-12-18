@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\Editor\SkeletonRagdollInspector.cs" />
-    <Compile Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\Editor\SkeletonRagdoll2DInspector.cs" />
+    <Compile Include="Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\Editor\SkeletonRagdoll2DInspector.cs" />
+    <Compile Include="Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\Editor\SkeletonRagdollInspector.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\External Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\Editor\spine-unity-examples-editor.asmdef" />
+     <None Include="Assets\Spine Examples\Scripts\Sample Components\SkeletonUtility Modules\Editor\spine-unity-examples-editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -320,10 +320,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>Assets\External Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>Assets\External Assets\DOTween\DOTween.dll</HintPath>
+      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

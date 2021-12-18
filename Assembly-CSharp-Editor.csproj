@@ -56,29 +56,29 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\UI\Tween\Editor\Jun_PositionTweenEditor.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\Editor\GameLevelMangerWindow.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\Editor\EditorMenu.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\Editor\ItemMangerWindow.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\Editor\EditorTools.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\Editor\ItemSelectWindow.cs" />
-    <Compile Include="Assets\External Assets\Jun_ConnectKit\Scripts\UI\Tween\Editor\Jun_TweenBaseEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\WaitNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\AlterStatNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\DialogueNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\VN Engine Editor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\ChoiceNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\VideoNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\IfNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\StaticImageNodeEditor.cs" />
-    <Compile Include="Assets\External Assets\VN Engine\Editor\EnterActorNodeEditor.cs" />
+    <Compile Include="Assets\VN Engine\Editor\WaitNodeEditor.cs" />
+    <Compile Include="Assets\VN Engine\Editor\EnterActorNodeEditor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\Editor\ItemSelectWindow.cs" />
+    <Compile Include="Assets\VN Engine\Editor\IfNodeEditor.cs" />
+    <Compile Include="Assets\VN Engine\Editor\DialogueNodeEditor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\UI\Tween\Editor\Jun_PositionTweenEditor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\Editor\EditorTools.cs" />
+    <Compile Include="Assets\VN Engine\Editor\ChoiceNodeEditor.cs" />
+    <Compile Include="Assets\VN Engine\Editor\VideoNodeEditor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\Editor\GameLevelMangerWindow.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\UI\Tween\Editor\Jun_TweenBaseEditor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\Editor\ItemMangerWindow.cs" />
+    <Compile Include="Assets\VN Engine\Editor\StaticImageNodeEditor.cs" />
+    <Compile Include="Assets\VN Engine\Editor\AlterStatNodeEditor.cs" />
+    <Compile Include="Assets\Jun_ConnectKit\Scripts\Editor\EditorMenu.cs" />
+    <Compile Include="Assets\VN Engine\Editor\VN Engine Editor.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\External Assets\DOTween\Editor\DOTweenEditor.dll" />
-     <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Editor\CurveGrid.shader" />
-     <None Include="Assets\External Assets\DOTween\Editor\DOTweenEditor.XML" />
-     <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Editor\Trackball.shader" />
-     <None Include="Assets\External Assets\Jun_ConnectKit\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
+     <None Include="Assets\DOTween\Editor\DOTweenEditor.dll" />
+     <None Include="Assets\Jun_ConnectKit\PostProcessing\Shaders\Editor\CurveGrid.shader" />
+     <None Include="Assets\DOTween\Editor\DOTweenEditor.XML" />
+     <None Include="Assets\Jun_ConnectKit\PostProcessing\Shaders\Editor\Trackball.shader" />
+     <None Include="Assets\Jun_ConnectKit\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -338,10 +338,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>Assets\External Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>Assets\External Assets\DOTween\DOTween.dll</HintPath>
+      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -733,14 +733,14 @@
     <Reference Include="VSSettingsProvider">
       <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -757,14 +757,6 @@
       <Project>{F9196F30-DF9E-D337-DC86-6FC64EA204D1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="com.unity.postprocessing.Editor.csproj">
-      <Project>{D1A99CB2-11F0-D402-E777-04DBA7B33A11}</Project>
-      <Name>com.unity.postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.postprocessing.Runtime.csproj">
-      <Project>{B343497E-1551-B676-F0D2-6D433B0AAD53}</Project>
-      <Name>com.unity.postprocessing.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="spine-unity-examples.csproj">
       <Project>{BE477818-B7F9-98B0-4EAF-E4673403D9A7}</Project>
       <Name>spine-unity-examples</Name>
@@ -776,6 +768,14 @@
     <ProjectReference Include="spine-unity-examples-editor.csproj">
       <Project>{9A051959-7DFC-02A2-DB5F-FDECA35906FE}</Project>
       <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.postprocessing.Editor.csproj">
+      <Project>{D1A99CB2-11F0-D402-E777-04DBA7B33A11}</Project>
+      <Name>com.unity.postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.postprocessing.Runtime.csproj">
+      <Project>{B343497E-1551-B676-F0D2-6D433B0AAD53}</Project>
+      <Name>com.unity.postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity-editor.csproj">
       <Project>{9358DACA-670A-7137-6D80-8181A0D180F1}</Project>
